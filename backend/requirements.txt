@@ -1,0 +1,15 @@
+# Web framework
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+
+# JWT — python-jose with cryptography backend for HS256 support
+python-jose[cryptography]==3.3.0
+
+# Settings from .env
+pydantic-settings==2.9.1
+
+# Supabase client (uses postgrest-py under the hood for table queries)
+supabase==2.10.0
+
+# HTTP client for direct Supabase REST/Storage calls
+httpx==0.26.0
